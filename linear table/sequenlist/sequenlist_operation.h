@@ -81,18 +81,18 @@ int JudgeListLength(const sequenlist* L)
 
 
 /**
- * 将整数数组转换为顺序表
+ * 将数组转换为顺序表
  *
- * 该函数将一个整数数组的元素逐个复制到顺序表中，并更新顺序表的长度。
+ * 该函数将一个数组的元素逐个复制到顺序表中，并更新顺序表的长度。
  *
- * @param array 要复制的整数数组
+ * @param array 要复制的数组
  * @param size 数组的大小
  * @param L 指向目标顺序表的指针
  * @return 无返回值
  */
 void ArrayToSequenList(float array[], int size, sequenlist* L)
 {
-        if (L == NULL || size > maxsize) {
+    if (L == NULL || size > maxsize) {
         printf("Error - Your wild ambition is too mega!!!\n");
     }
     // 将数组中的元素逐个复制到顺序表中
@@ -113,7 +113,7 @@ void ArrayToSequenList(float array[], int size, sequenlist* L)
  */
 void PrintList(const sequenlist* L)
 {
-    printf("List is: ");
+    printf("SequenList is: ");
     if (L->last == 0) {
         printf("Empty!!!\n");
     }

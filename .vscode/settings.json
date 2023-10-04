@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "sequenlist.h": "c",
+    "sequenlist_operation.h": "c"
+  }
+}
