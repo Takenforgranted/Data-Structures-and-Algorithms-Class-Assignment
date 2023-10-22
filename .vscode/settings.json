@@ -1,6 +1,9 @@
 {
   "files.associations": {
     "sequenlist.h": "c",
-    "sequenlist_operation.h": "c"
+    "sequenlist_operation.h": "c",
+    "stdio.h": "c",
+    "cmp_sqlist.h": "c",
+    "s_link.h": "c"
   }
 }
